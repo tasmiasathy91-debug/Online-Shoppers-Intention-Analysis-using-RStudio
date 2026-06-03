@@ -10,7 +10,7 @@ This project analyzes online shopper behavior using the Online Shoppers Intentio
 The findings indicate that customer engagement metrics such as Page Values, Product-Related Pages, Exit Rates, and Visitor Type significantly influence purchasing decisions. Among the machine learning models evaluated, Random Forest demonstrates superior predictive capability for identifying potential buyers.
 
 
-#Technologies Used
+# Technologies Used
 
 •	R Programming
 
@@ -55,4 +55,31 @@ The findings indicate that customer engagement metrics such as Page Values, Prod
 •	Business Intelligence
 
 •	Customer Analytics
+
+
+# Feature Importance Analysis
+
+Random Forest feature importance revealed the following key predictors:
+
+1. PageValues
+
+Most influential feature.
+
+Higher page values strongly correlate with purchase intent.
+
+2. ExitRates
+
+High exit rates reduce purchase probability.
+
+3. ProductRelated_Duration
+
+Longer engagement with product pages increases conversion likelihood.
+
+4. BounceRates
+
+Higher bounce rates indicate lower customer interest.
+
+5. ProductRelated
+
+Viewing more product pages reflects stronger buying intent.
 
